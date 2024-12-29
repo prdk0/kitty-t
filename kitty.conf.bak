@@ -1,0 +1,64 @@
+#font_family Monoisome
+font_family Iosevka Term Nerd Font Mono
+# font_family Iosevka Term SlabNerd Font
+# font_family ZedMono Nerd Font 
+# font_family Iosevka Term Slab Nerd Font
+# font_family VictorMono Nerd Font
+# font_family Monoisome
+# font_family Input
+# font_family Iosevka Term SS18
+# font_family Iosevka Term Slab Expanded
+bold_font auto
+italic_font auto
+bold_italic_font auto
+font_size 16.0
+enable_audio_bell no
+
+# window_margin_width     5
+window_border_width     1pt
+# active_border_color     #44ffff
+window_title codephilosopher
+
+#theme
+# include themes/cyberdream.conf
+
+
+tab_bar_edge top
+tab_bar_margin_width 0.0
+tab_bar_margin_height 0.0 0.0
+tab_bar_style separator
+tab_bar_align left
+tab_bar_min_tabs 2
+tab_switch_strategy previous
+tab_fade 0.25 0.5 0.75 1
+# tab_separator " ┇"
+tab_powerline_style round
+tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{title}"
+# active_tab_foreground   #000
+# active_tab_background   #eee
+active_tab_font_style   bold-italic
+# inactive_tab_foreground #444
+# inactive_tab_background #999
+inactive_tab_font_style normal
+
+cursor_shape beam
+cursor_beam_thickness 5.0
+cursor_shape_unfocused beam
+cursor_stop_blinking_after 15.0
+# cursor_text_color #f2f739
+# cursor #aa0404
+
+
+scrollback_lines 2000
+scrollback_indicator_opacity 1.0
+wheel_scroll_min_lines 1
+# url_color #fca311
+url_style curly
+
+
+# BEGIN_KITTY_THEME
+# Monoindustrial
+include current-theme.conf
+# END_KITTY_THEME
+
+shell /usr/bin/fish
